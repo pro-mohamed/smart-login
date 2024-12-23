@@ -1,0 +1,44 @@
+
+:root {
+    --main-color: #24353F ;
+    --main-alt-color: #17a2b8; 
+}
+body {
+    background-color: var(--main-color);
+}
+
+.alt-color{
+    color: var(--main-alt-color);
+}
+.bg-main{
+    color: var(--main-color);
+}
+
+.box-shadow{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+fs-40{
+    font-size: 40px;
+}
+.form-control:focus {
+    border-color: none;
+    box-shadow: none ;
+}
+
+.form-control::placeholder{
+    color: #ccc;
+}
+.btn{
+    border-color: var(--main-alt-color);
+    transition: 0.3s;
+} 
+.btn:hover {
+    background-color: var(--main-alt-color);
+    border-color: var(--main-alt-color);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
